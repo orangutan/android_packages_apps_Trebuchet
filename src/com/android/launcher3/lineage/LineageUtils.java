@@ -10,8 +10,8 @@ import java.util.Locale;
 public class LineageUtils {
 
     private static final String GRID_VALUE_SEPARATOR = "x";
-    private static final int GRID_ROW_VALUE_DEFAULT = 4;
-    private static final int GRID_COLUMN_VALUE_DEFAULT = 5;
+    private static final int GRID_ROW_VALUE_DEFAULT = 5;
+    private static final int GRID_COLUMN_VALUE_DEFAULT = 6;
 
     public static boolean hasPackageInstalled(Context context, String pkgName) {
         try {
