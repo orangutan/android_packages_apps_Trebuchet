@@ -61,6 +61,10 @@
     <!-- Folder titles -->
     <string name="google_title" translatable="false">Google</string>
     <string name="play_folder_title">Play</string>
+    <string name="stores_folder_title">Stores</string>
+    <string name="security_folder_title">Security</string>
+    <string name="tools_folder_title">Tools</string>
+    <string name="net_folder_title">Internet</string>
 
     <!-- Expand statusbar -->
     <string name="statusbar_expand">Swipe down to show notifications</string>
