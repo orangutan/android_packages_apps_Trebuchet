@@ -31,13 +31,22 @@
         launcher:spanX="2"
         launcher:spanY="2" />
 
-    <!-- column 1 from left -->
-    <favorite
+    <appwidget
+        launcher:packageName="net.sourceforge.opencamera"
+        launcher:className="net.sourceforge.opencamera.MyWidgetProviderTakePhoto"
         launcher:screen="0"
         launcher:x="0"
-        launcher:y="-1"
-        launcher:packageName="com.android.calculator2"
-        launcher:className="com.android.calculator2.Calculator"/>
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="2" />
+
+    <!-- column 1 from left -->
+    <favorite
+	launcher:screen="0"
+	launcher:x="0"
+	launcher:y="-1"
+	launcher:packageName="com.tobykurien.google_news"
+	launcher:className="com.tobykurien.google_news.GoogleNewsActivity" />
 
     <favorite
         launcher:packageName="com.android.settings"
@@ -50,30 +59,23 @@
         launcher:screen="0"
         launcher:x="0"
         launcher:y="-3"
-        launcher:packageName="com.aurora.store"
-        launcher:className="com.aurora.store.activity.AuroraActivity"/>
-
-    <favorite
-        launcher:screen="0"
-        launcher:x="0"
-        launcher:y="-4"
         launcher:packageName="com.protonvpn.android"
         launcher:className="com.protonvpn.android.ui.onboarding.SplashActivity"/>
 
     <favorite
         launcher:screen="0"
         launcher:x="0"
-        launcher:y="-5"
+        launcher:y="-4"
 	launcher:className="com.poupa.vinylmusicplayer.ui.activities.MainActivity"
 	launcher:packageName="com.poupa.vinylmusicplayer"/>
 
     <!-- column 2 from left -->
     <favorite
-	launcher:screen="0"
-	launcher:x="1"
-	launcher:y="-1"
-	launcher:className="org.lineageos.audiofx.activity.ActivityMusic"
-	launcher:packageName="org.lineageos.audiofx"/>
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="-1"
+        launcher:packageName="com.aurora.store"
+        launcher:className="com.aurora.store.activity.AuroraActivity"/>
 
     <favorite
         launcher:screen="0"
@@ -83,47 +85,48 @@
         launcher:className="com.simplemobiletools.gallery.pro.activities.MainActivity" />
 
     <favorite
-        launcher:screen="0"
-        launcher:x="1"
-        launcher:y="-3"
-        launcher:packageName="org.fdroid.fdroid"
-        launcher:className="org.fdroid.fdroid.views.main.MainActivity"/>
-
-    <favorite
-        launcher:screen="0"
-        launcher:x="1"
-        launcher:y="-4"
-        launcher:packageName="com.bijoysingh.quicknote"
-        launcher:className="com.maubis.scarlet.base.MainActivity"/>
-
-    <!-- column 3 from left -->
-    <favorite
 	launcher:screen="0"
-	launcher:x="2"
-	launcher:y="-1"
-	launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.APP_CONTACTS;end" />
-
-    <favorite
-	launcher:screen="0"
-	launcher:x="2"
-	launcher:y="-2"
-	launcher:className="org.videolan.vlc.StartActivity"
-	launcher:packageName="org.videolan.vlc"/>
-
-    <favorite
-	launcher:screen="0"
-	launcher:x="2"
+	launcher:x="1"
 	launcher:y="-3"
 	launcher:packageName="dev.ukanth.ufirewall"
 	launcher:className="dev.ukanth.ufirewall.MainActivity"/>
 
     <favorite
 	launcher:screen="0"
-	launcher:x="2"
+	launcher:x="1"
 	launcher:y="-4"
-	launcher:packageName="com.tobykurien.google_news"
-	launcher:className="com.tobykurien.google_news.GoogleNewsActivity" />
+	launcher:className="org.videolan.vlc.StartActivity"
+	launcher:packageName="org.videolan.vlc"/>
 
+    <!-- column 3 from left -->
+
+    <favorite
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="-1"
+        launcher:packageName="org.fdroid.fdroid"
+        launcher:className="org.fdroid.fdroid.views.main.MainActivity"/>
+
+    <favorite
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="-2"
+        launcher:packageName="com.android.calculator2"
+        launcher:className="com.android.calculator2.Calculator"/>
+
+    <favorite
+	launcher:screen="0"
+	launcher:x="2"
+	launcher:y="-3"
+	launcher:className="net.osmand.plus.activities.MapActivity"
+	launcher:packageName="net.osmand.plus"/>
+
+    <!-- maps and osm at the same place. -->
+    <favorite
+	launcher:screen="0"
+	launcher:x="2"
+	launcher:y="-3"
+	launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.google.android.apps.maps/com.google.android.maps.MapsActivity;end"/>
 <!-- column 4 from left -->
     <favorite
 	launcher:screen="0"
@@ -131,37 +134,22 @@
 	launcher:y="-1"
 	launcher:className="org.schabi.newpipe.MainActivity"
 	launcher:packageName="org.schabi.newpipe"/>
-    <favorite
-	launcher:screen="0"
-	launcher:x="3"
-	launcher:y="-2"
-	launcher:className="net.programmierecke.radiodroid2.ActivityMain"
-	launcher:packageName="net.programmierecke.radiodroid2"/>
 
     <favorite
-	launcher:screen="0"
-	launcher:x="3"
-	launcher:y="-3"
-	launcher:className="com.fsck.k9.activity.Accounts"
-	launcher:packageName="com.fsck.k9"/>
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="-2"
+        launcher:packageName="com.bijoysingh.quicknote"
+        launcher:className="com.maubis.scarlet.base.MainActivity"/>
 
 <!-- column 5 from left -->
     <favorite
 	launcher:screen="0"
 	launcher:x="4"
 	launcher:y="-1"
-	launcher:className="net.osmand.plus.activities.MapActivity"
-	launcher:packageName="net.osmand.plus"/>
+	launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.amaze.filemanager/.activities.MainActivity;end"/>
 
     <!-- Screen 1 -->
-    <appwidget
-        launcher:packageName="net.sourceforge.opencamera"
-        launcher:className="net.sourceforge.opencamera.MyWidgetProviderTakePhoto"
-        launcher:screen="1"
-        launcher:x="0"
-        launcher:y="0"
-        launcher:spanX="1"
-        launcher:spanY="2" />
 
     <appwidget
         launcher:packageName="com.poupa.vinylmusicplayer"
@@ -171,6 +159,26 @@
         launcher:y="0"
         launcher:spanX="4"
         launcher:spanY="1" />
+
+    <!--
+    <appwidget
+        launcher:packageName="org.asdtm.goodweather"
+        launcher:className="org.asdtm.goodweather.widget.LessWidgetProvider"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="0"
+        launcher:spanX="3"
+        launcher:spanY="1" />
+	-->
+
+    <appwidget
+        launcher:packageName="org.asdtm.goodweather"
+        launcher:className="org.asdtm.goodweather.widget.MoreWidgetProvider"
+        launcher:screen="2"
+        launcher:x="1"
+        launcher:y="0"
+        launcher:spanX="4"
+        launcher:spanY="3" />
 
 <folder launcher:screen="1" launcher:x="0" launcher:y="-3" launcher:title="@string/play_folder_title">
         <favorite
@@ -189,9 +197,9 @@
         	launcher:packageName="com.simplemobiletools.gallery.pro"
         	launcher:className="com.simplemobiletools.gallery.pro.activities.MainActivity" />
         <favorite
-		launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.gaana/.SplashScreenActivity;end"/>
+		launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.gaana/.SplashScreenActivity;end"/>
         <favorite
-		launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.amazon.mp3/.client.activity.LauncherActivity;end"/>
+		launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.amazon.mp3/.client.activity.LauncherActivity;end"/>
         <favorite
 		launcher:className="org.lineageos.audiofx.activity.ActivityMusic"
 		launcher:packageName="org.lineageos.audiofx"/>
@@ -205,7 +213,7 @@
 		launcher:packageName="dev.ukanth.ufirewall"
 		launcher:className="dev.ukanth.ufirewall.MainActivity"/>
         <favorite
-		launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=se.leap.bitmaskclient/.StartActivity;end"/>
+		launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=se.leap.bitmaskclient/.StartActivity;end"/>
         <favorite
 	        launcher:packageName="com.protonvpn.android"
         	launcher:className="com.protonvpn.android.ui.onboarding.SplashActivity"/>
@@ -270,9 +278,9 @@
 	        launcher:packageName="com.stoutner.privacybrowser.standard"
         	launcher:className="com.stoutner.privacybrowser.activities.MainWebViewActivity"/>
         <favorite
-		launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=org.mozilla.klar/org.mozilla.focus.activity.MainActivity;end"/>
+		launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.mozilla.klar/org.mozilla.focus.activity.MainActivity;end"/>
         <favorite
-		launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LaunchActivity;end"/>
+		launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.duckduckgo.mobile.android/com.duckduckgo.app.launch.LaunchActivity;end"/>
         <favorite
 		launcher:className="com.fsck.k9.activity.Accounts"
 		launcher:packageName="com.fsck.k9"/>
@@ -283,26 +291,9 @@
 		launcher:packageName="org.indywidualni.fblite"
 		launcher:className="org.indywidualni.fblite.activity.MainActivity"/>
         <favorite
-		launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.wire/com.waz.zclient.LaunchActivity;end"/>
+		launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.wire/com.waz.zclient.LaunchActivity;end"/>
         <favorite
-		launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=org.telegram.messenger/org.telegram.ui.LaunchActivity;end"/>
+		launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=org.telegram.messenger/org.telegram.ui.LaunchActivity;end"/>
 </folder>
-
-<!--
-<folder launcher:screen="1" launcher:x="1" launcher:y="-3" launcher:title="@string/camera_folder_title">
-        <favorite
-        	launcher:packageName="net.sourceforge.opencamera"
-        	launcher:className="net.sourceforge.opencamera.MainActivity"/>
-        <favorite
-	        launcher:uri="#Intent;action=android.media.action.STILL_IMAGE_CAMERA;category=android.intent.category.DEFAULT;end" />
-        <favorite
-	        launcher:uri="#Intent;action=android.media.action.VIDEO_CAPTURE;category=android.intent.category.DEFAULT;end" />
-        <favorite
-	        launcher:uri="#Intent;action=android.media.action.VIDEO_CAMERA;category=android.intent.category.DEFAULT;end"/>
-        <favorite
-	        launcher:uri="#Intent;action=android.media.action.VIDEO_CAMERA;category=android.intent.category.LAUNCHER;i.android.intent.extras.CAMERA_FACING=1;end"/>
-		
-</folder>
--->
 
 </favorites>
