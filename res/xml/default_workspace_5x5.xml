@@ -111,8 +111,7 @@
         launcher:screen="0"
         launcher:x="2"
         launcher:y="-2"
-        launcher:packageName="com.android.calculator2"
-        launcher:className="com.android.calculator2.Calculator"/>
+	launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.github.palmcalc2019.palmcalc/.PalmCalcActivity;end"/>
 
     <favorite
 	launcher:screen="0"
