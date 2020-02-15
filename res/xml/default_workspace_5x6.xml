@@ -75,7 +75,7 @@
         launcher:x="1"
         launcher:y="-1"
         launcher:packageName="com.aurora.store"
-        launcher:className="com.aurora.store.activity.AuroraActivity"/>
+       	launcher:className="com.aurora.store.ui.single.activity.SplashActivity"/>
 
     <favorite
         launcher:screen="0"
@@ -266,7 +266,7 @@
 <folder launcher:screen="1" launcher:x="1" launcher:y="-1" launcher:title="@string/stores_folder_title">
         <favorite
         	launcher:packageName="com.aurora.store"
-        	launcher:className="com.aurora.store.activity.AuroraActivity"/>
+       		launcher:className="com.aurora.store.ui.single.activity.SplashActivity"/>
         <favorite
         	launcher:packageName="org.fdroid.fdroid"
         	launcher:className="org.fdroid.fdroid.views.main.MainActivity"/>
